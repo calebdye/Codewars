@@ -1,0 +1,6 @@
+function nbDig(n, d) {
+    var str = ''
+    for(let i=0; i<=n; i++){
+      str += i*i
+    } return str.split('' + d).length - 1;
+}
