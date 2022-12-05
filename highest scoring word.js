@@ -20,4 +20,6 @@ function high(x){
       return highestScoreWord;
     }
     
-    
+    //For in loop returns the OBJ keys, basically the I (Iterator) Over the array. A for in loop 
+    //over an array of 5 words will return 0,1,2,3,4. Where as a for Of Loop will return each of
+    //the words. For in for keys, for of for values
