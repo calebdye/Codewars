@@ -8,3 +8,13 @@ function cutIt(arr){
    return newArr
   
  }
+
+
+//  var str="Hello beautiful World!";
+//  console.log(str.slice(6,16))
+//  console.log(str.substring(6,16))
+//  console.log(str.substr(6,9))
+//  output:
+//  beautiful 
+//  beautiful 
+//  beautiful
