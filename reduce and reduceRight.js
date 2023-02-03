@@ -5,7 +5,7 @@ function tailAndHead(arr){
       var s2 = curr.toString();
       prod 	*= parseInt(s1[s1.length-1]) + parseInt(s2[0]);
      //console.log(curr)
-      return curr // Not sure why we return curr
+      return curr // Not sure why we return curr, does returning curr make the prev turn to that current value?
       
     });
     return prod;
